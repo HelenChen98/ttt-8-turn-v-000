@@ -20,6 +20,7 @@ end
 
 def move(board, index, char)
   board[index]=char
+  return board
 end
 
 def turn(board)
